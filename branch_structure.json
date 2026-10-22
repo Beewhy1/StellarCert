@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-48-user-defined-regex-patterns-in-metadata-schemas",
+    "main",
+    "origin",
+    "security/issue-51-global-input-sanitization-middleware-strips-all",
+    "security/issue-52-certificate-text-search-uses-case-sensitive"
+  ],
+  "parent": {
+    "fix/issue-48-user-defined-regex-patterns-in-metadata-schemas": "main",
+    "main": null,
+    "origin": "main",
+    "security/issue-51-global-input-sanitization-middleware-strips-all": "main",
+    "security/issue-52-certificate-text-search-uses-case-sensitive": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-48-user-defined-regex-patterns-in-metadata-schemas",
+    "origin",
+    "security/issue-51-global-input-sanitization-middleware-strips-all",
+    "security/issue-52-certificate-text-search-uses-case-sensitive"
+  ]
+}
